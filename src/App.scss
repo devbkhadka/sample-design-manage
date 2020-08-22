@@ -1,0 +1,21 @@
+
+:root {
+    --max-width: 1110px
+}
+
+body {
+    font-family: 'Be Vietnam', sans-serif;
+    line-height: 1.3;
+}
+#root {
+    background: 
+        url("/images/bg-tablet-pattern.svg") top -160px right -200px no-repeat,
+        url("/images/bg-tablet-pattern.svg") top 850px left -500px no-repeat;
+    .text-block-margin {
+        &>* {
+            margin-top: 2rem
+        }
+    }
+}
+
+
